@@ -23,3 +23,10 @@
 	- Principle of least privilege
 - See if a user is already provided in the base image and use that with `USER`
 - Else create your own user group and add your user to that group
+### Debugging
+- If one of your steps failed and you don't know what to do (error message isn't immediately obvious), there are a couple of options
+- A:
+	- Comment out problematic line and all lines after that, build again
+	- Manually run the command in the container
+- B: 
+	- Use layer to start a new container
