@@ -30,3 +30,8 @@
 	- Manually run the command in the container
 - B: 
 	- Use layer to start a new container
+### Resources
+1. [Dockerfile Reference](https://docs.docker.com/reference/dockerfile/)
+2. [Building best practices](https://docs.docker.com/build/building/best-practices/)
+3. [Java Containers Best Practices](https://docs.docker.com/reference/dockerfile/)
+

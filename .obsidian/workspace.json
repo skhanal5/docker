@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dockerfile.md",
+                "file": "Dockerfile/Basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Useful Commands.md",
+                "file": "Docker CLI/Useful Commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +49,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Useful Commands.md",
+                "file": "Docker Compose/Compose File.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "69a30e37eb7d4580",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Useful Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +146,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Useful Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +167,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Useful Commands.md"
-              }
+              "state": {}
             }
           },
           {
@@ -192,11 +196,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7df1662d24e63002",
+  "active": "69a30e37eb7d4580",
   "lastOpenFiles": [
-    "CMD vs ENTRYPOINT vs RUN.md",
-    "Useful Commands.md",
+    "Docker Compose/Compose File.md",
+    "Docker CLI/Useful Commands.md",
+    "Dockerfile/Basics.md",
+    "Docker Compose/Basics.md",
+    "Docker Compose/Interacting with Compose.md",
+    "Docker Compose/up vs run vs start.md",
     "README.md",
-    "Dockerfile.md"
+    "Docker Compose/Untitled",
+    "Dockerfile/Debugging.md",
+    "Docker Compose",
+    "Dockerfile",
+    "Docker CLI",
+    "Dockerfile/CMD vs ENTRYPOINT vs RUN.md"
   ]
 }
