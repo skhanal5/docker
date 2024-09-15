@@ -59,8 +59,12 @@
             "id": "69a30e37eb7d4580",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Docker Compose/Compose File.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -130,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Docker Compose/Compose File.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Docker Compose/Compose File.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Docker Compose/Compose File.md"
+              }
             }
           },
           {
@@ -198,6 +206,7 @@
   },
   "active": "69a30e37eb7d4580",
   "lastOpenFiles": [
+    "Docker Compose/Compose Watch.md",
     "Docker Compose/Compose File.md",
     "Docker CLI/Useful Commands.md",
     "Dockerfile/Basics.md",

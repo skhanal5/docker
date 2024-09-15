@@ -25,8 +25,69 @@ services:
 	* Uses existing Redis image
 * To run this, view [[Interacting with Compose]]
 #### More Realistic Example
-* 
+```yaml
+services:
+  frontend:
+    image: example/webapp
+    ports:
+      - "443:8043"
+    networks:
+      - front-tier
+      - back-tier
+    configs:
+      - httpd-config
+    secrets:
+      - server-certificate
 
+  backend:
+    image: example/database
+    volumes:
+      - db-data:/etc/data
+    networks:
+      - back-tier
+
+volumes:
+  db-data:
+    driver: flocker
+    driver_opts:
+      size: "10GiB"
+
+configs:
+  httpd-config:
+    external: true
+
+secrets:
+  server-certificate:
+    external: true
+
+networks:
+  # The presence of these objects is sufficient to define them
+  front-tier: {}
+  back-tier: {}
+```
+### Include
+* You can use the `include` top-level attribute in your compose.yaml to include an existing yaml file containing a service
+* Example of a infra.yaml file:
+```yaml
+services:
+  redis:
+    image: "redis:alpine"
+```
+* Example of a compose.yaml file:
+```yaml
+include:
+   - infra.yaml
+services:
+  web:
+    build: .
+    ports:
+      - "8000:5000"
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /code
+```
 
 ### Resources
 1. [Getting Started with Compose](https://docs.docker.com/compose/gettingstarted/)
