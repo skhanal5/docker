@@ -7,4 +7,3 @@
 	* `docker compose logs`
 * View running services
 	* `docker compose ps`
-* 
