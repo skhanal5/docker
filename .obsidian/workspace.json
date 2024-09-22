@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker Compose/Compose Networks.md",
+                "file": "Docker Compose/Depends On.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker Compose/Compose Networks.md",
+                "file": "Docker Compose/Depends On.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker Compose/Compose Networks.md",
+                "file": "Docker Compose/Depends On.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker Compose/Compose Networks.md"
+                "file": "Docker Compose/Depends On.md"
               }
             }
           },
@@ -170,8 +170,10 @@
   },
   "active": "34e2c88859934ae8",
   "lastOpenFiles": [
-    "Docker Basics/Useful Commands.md",
+    "Docker Compose/Health Checks.md",
+    "Docker Compose/Depends On.md",
     "Docker Compose/Compose Networks.md",
+    "Docker Basics/Useful Commands.md",
     "Docker Compose/Debugging.md",
     "Docker Compose/About Compose.md",
     "Docker Compose/Compose File.md",
