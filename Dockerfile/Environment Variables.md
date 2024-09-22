@@ -37,4 +37,4 @@ ENV foo_actual = $FOO
 	* `-e` flag to pass in env values
 * Alternatively, look at [[Docker Compose/Environment Variables|Docker Compose Environment Variables]] to see how it can be set using docker-compose
 ### Aside: Helpful Tip
-* Use `docker insepct [image-id]` to see which `ENV` have been set
+* Use `docker inspect [image-id]` to see which `ENV` have been set

@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2111f6920ea17b85",
+        "id": "599e2f7f3e4b437f",
         "type": "tabs",
         "children": [
           {
-            "id": "71eb714407d57c31",
+            "id": "50ba7d5568fc6b3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker Compose/Environment Variables.md",
+                "file": "Docker Basics/Useful Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34e2c88859934ae8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker Compose/Compose Networks.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker Compose/Environment Variables.md",
+                "file": "Docker Compose/Compose Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker Compose/Environment Variables.md",
+                "file": "Docker Compose/Compose Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker Compose/Environment Variables.md"
+                "file": "Docker Compose/Compose Networks.md"
               }
             }
           },
@@ -155,20 +168,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "71eb714407d57c31",
+  "active": "34e2c88859934ae8",
   "lastOpenFiles": [
-    "Dockerfile/Environment Variables.md",
-    "Dockerfile/CMD vs ENTRYPOINT vs RUN.md",
-    "Dockerfile/Basics.md",
-    "Docker CLI/Useful Commands.md",
-    "Docker",
-    "Docker Compose/up vs run vs start.md",
-    "Dockerfile/Untitled.md",
-    "Docker Compose/Environment Variables.md",
-    "Docker Compose/Compose Watch.md",
-    "Docker Compose/Compose File.md",
+    "Docker Basics/Useful Commands.md",
+    "Docker Compose/Compose Networks.md",
+    "Docker Compose/Debugging.md",
     "Docker Compose/About Compose.md",
+    "Docker Compose/Compose File.md",
+    "Docker Compose/Compose Watch.md",
+    "Docker Compose/Environment Variables.md",
     "Docker Compose/Interacting with Compose.md",
+    "Docker Compose/up vs run vs start.md",
+    "Dockerfile/Basics.md",
+    "Dockerfile/CMD vs ENTRYPOINT vs RUN.md",
+    "Dockerfile/Environment Variables.md",
+    "Docker Basics",
+    "Dockerfile/Untitled.md",
     "README.md",
     "Docker Compose/Untitled",
     "Dockerfile/Debugging.md",
